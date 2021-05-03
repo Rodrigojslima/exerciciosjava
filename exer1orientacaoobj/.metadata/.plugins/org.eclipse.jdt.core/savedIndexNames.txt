@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\estudos\java\exer1orientacaoobj\.metadata\.plugins\org.eclipse.jdt.core
+1574843208.index
+3416912058.index

@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\estudos\java\exer1vetor\.metadata\.plugins\org.eclipse.jdt.core
+3279632988.index
+1574843208.index

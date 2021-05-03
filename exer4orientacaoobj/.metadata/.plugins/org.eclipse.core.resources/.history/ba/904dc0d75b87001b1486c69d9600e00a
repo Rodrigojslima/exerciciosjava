@@ -1,0 +1,40 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+import entities.Client;
+
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter account number: ");
+		long account = sc.nextLong();
+		System.out.println("Enter account holder: ");
+		String name = sc.nextLine();
+		
+		
+		System.out.println("Is there na initial deposit (y/n)?");
+		char condition = sc.next().charAt(0);		
+		Client client = new Client(account , name);
+		if(condition == 'y') {
+			System.out.println("Enter depodit: ");
+		double deposit = sc.nextDouble();
+		client.deposit(deposit);
+		}else {
+			
+		}
+		
+		System.out.println(client);
+		System.out.println();
+		sc.close();
+		
+		
+
+	}
+
+}

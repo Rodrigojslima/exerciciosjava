@@ -1,0 +1,14 @@
+package entities;
+
+public class Employee {
+
+	private Integer id;
+	private String name;
+	private Double salary;
+	
+	prublic Employee(Interger id, String name, Double salary) {
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+}

@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\estudos\java\exer1listnino\.metadata\.plugins\org.eclipse.jdt.core
+2779302307.index
+1574843208.index

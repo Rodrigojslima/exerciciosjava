@@ -1,0 +1,62 @@
+package entities;
+
+
+public class Client {
+
+	private int number;
+	private String name;
+	private double balance; 
+
+	public Client() {
+		
+	}
+	
+	public Client(int number, String name, double balance) {
+		this.number = number;
+		this.name = name;
+		this.balance = balance;
+	}
+	
+	public Client(int number, String name) {
+		this.number = number;
+		this.name = name;
+	}
+	
+	public long getNumber() {
+		return number;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public double getBalance() {
+		return balance;
+	}
+
+	public void number(int number) {
+		this.number = number;
+	}
+	
+	public double deposit(double deposit) {
+		return balance += deposit;
+	}
+	
+	public double withdraw(double withdraw) {
+		return balance - withdraw - 5.00;
+	}
+	
+	public String toString() {
+		return "Account data: Account "
+				+ String.format("", account)
+				+ name +
+				"$ "
+				+ String.format( "%.2f", getBalance());
+		
+	}
+}
+
